@@ -1,0 +1,376 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Participación ciudadana y control social},
+  pdfauthor={Nelson Shack},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{Participación ciudadana y control social}
+\author{Nelson Shack}
+\date{2020-07-17}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{sobre-el-curso}{%
+\chapter*{Sobre el curso}\label{sobre-el-curso}}
+\addcontentsline{toc}{chapter}{Sobre el curso}
+
+En el curso ``Participación ciudadana y control social'', se busca que los alumnos conozcan herramientas formales para participar de los asuntos públicos existentes en las normas en la actualidad.
+
+En el primer capítulo, se desarrollarán y explicarán las normas constitucionales y legales que amparan el derecho ciudadana a la participación. Así durante esta primera etapa, nos centraremos en el estudio de instrumentos normativos relevantes para conocer sobre la materia. También se revisarán antecedentes históricos o cómo ha sido abordada la participación ciudadana con anterioridad.
+
+En el segundo capítulo, se desarrollarán los mecanismos de participación ciudadana con los que cuenta la ciudadanía para influir en los asuntos públicos, desde cómo formar parte de la creación de leyes, referendums, mecanismos de acceso a la información pública, entre otros, con la finalidad de que al terminar el capítulo, el alumnado pueda hacer uso de estos mecanismos cuando lo estime conveniente.
+
+En el tercer capítulo, se analizarán dos casos relativos a la participación ciudadana: la revocatoria, y el referendum del FONAVI.
+
+En el cuarto capítulo, se estudiarán sentencias de tribunales nacionales e internacionales con información relevante para el control social.
+
+Finalmente, en el quinto capítulo se brindarán algunas conclusiones y recomendaciones.
+
+Habrán dos anexos, uno con un caso a desarrollar por parte de los y las alumnas; y el otro con las referencias de las fuentes consultadas para la compilación de este material.
+
+\hypertarget{sobre-nelson-shack}{%
+\chapter*{Sobre Nelson Shack}\label{sobre-nelson-shack}}
+\addcontentsline{toc}{chapter}{Sobre Nelson Shack}
+
+Amplia experiencia directiva en la administración pública. Realizó consultorías internacionales y trabajos para el Banco Interamericano de Desarrollo, Banco Mundial, Delegación de la Comisión Europea y la Comisión Económica para América Latina en más de una docena de países de la Región en diversos temas de Gestión Presupuestaría, Planificación Estratégica, Programación de Inversiones, Auditorias de Desempeño, y Evaluaciones de Gasto Público y Rendición de Cuentas, y Análisis de la calidad del Gasto en áreas de Seguridad y Justicia.
+
+Se ha desempeñado como Coordinador del Proyecto para el Mejoramiento de los servicios de Justicia en el Perú. Ha sido miembro del Consejo Consultivo de la Presidencia del Poder Judicial, Director General de Presupuesto Público, y Director General de Asuntos Económicos y Sociales del Ministerio de Economía y Finanzas, así como Director del Banco de la Nación. Es autor de diversas publicaciones e investigaciones especializadas, y es expositor y docente de Postgrado de la Universidad del Pacífico, Universidad Continental, Universidad César Vallejo, Universidad Esan y de la Pontificia Universidad Católica del Perú.
+
+\hypertarget{normas}{%
+\chapter{Normas}\label{normas}}
+
+\hypertarget{constituciuxf3n-poluxedtica-del-peruxfa}{%
+\section{Constitución Política del Perú}\label{constituciuxf3n-poluxedtica-del-peruxfa}}
+
+¿Qué artículos de la Constitución Política son relevantes?
+
+Sobre participación y acceso a la información pública:
+
+\begin{quote}
+Artículo 2°.-
+"Toda persona tiene derecho :
+\end{quote}
+
+\begin{quote}
+A solicitar sin expresión de causa la información que requiera y a recibirla
+de cualquier entidad pública, en el plazo legal, con el costo que suponga el
+pedido. Se exceptúan las informaciones que afectan la intimidad personal
+y las que expresamente se excluyan por ley o por razones de seguridad
+nacional.
+\end{quote}
+
+\begin{quote}
+(\ldots) Inciso 17. A participar, en forma individual o asociada, en la vida política, económica,
+social y cultural de la Nación. Los ciudadanos tienen, conforme a ley, los
+derechos de elección, de remoción o revocación de autoridades, de
+iniciativa legislativa y de referéndum.
+\end{quote}
+
+\begin{quote}
+--- Constitución Política del Perú
+\end{quote}
+
+En la educación
+
+\begin{quote}
+(\ldots) Artículo 13°.- La educación tiene como finalidad el desarrollo integral de la
+persona humana. El Estado reconoce y garantiza la libertad de enseñanza. Los
+padres de familia tienen el deber de educar a sus hijos y el derecho de escoger
+los centros de educación y de participar en el proceso educativo.
+\end{quote}
+
+\begin{quote}
+--- Constitución Política del Perú
+\end{quote}
+
+Derechos civiles y políticos
+
+\begin{quote}
+Artículo 31°. - Los ciudadanos tienen derecho a participar en los asuntos públicos
+mediante referéndum; iniciativa legislativa; remoción o revocación de autoridades
+y demanda de rendición de cuentas. Tienen también el derecho de ser elegidos y
+de elegir libremente a sus representantes, de acuerdo con las condiciones y
+procedimientos determinados por ley orgánica.
+\end{quote}
+
+\begin{quote}
+Es derecho y deber de los vecinos participar en el gobierno municipal de su
+jurisdicción. La ley norma y promueve los mecanismos directos e indirectos de su
+participación.
+\end{quote}
+
+\begin{quote}
+Tienen derecho al voto los ciudadanos en goce de su capacidad civil. Para el
+ejercicio de este derecho se requiere estar inscrito en el registro correspondiente.
+El voto es personal, igual, libre, secreto y obligatorio hasta los setenta años. Es
+facultativo después de esa edad.
+\end{quote}
+
+\begin{quote}
+La ley establece los mecanismos para garantizar la neutralidad estatal durante los
+procesos electorales y de participación ciudadana.
+\end{quote}
+
+\begin{quote}
+Es nulo y punible todo acto que prohíba o limite al ciudadano el ejercicio de sus
+derechos.
+\end{quote}
+
+\begin{quote}
+--- Constitución Política del Perú
+\end{quote}
+
+\begin{quote}
+Artículo 32°. - Pueden ser sometidas a referéndum:
+1. La reforma total o parcial de la Constitución;
+2. La aprobación de normas con rango de ley;
+3. Las ordenanzas municipales; y
+4. Las materias relativas al proceso de descentralización.
+\end{quote}
+
+\begin{quote}
+No pueden someterse a referéndum la supresión o la disminución de los derechos
+fundamentales de la persona, ni las normas de carácter tributario y presupuestal,
+ni los tratados internacionales en vigor.
+\end{quote}
+
+\begin{quote}
+--- Constitución Política del Perú
+\end{quote}
+
+Estado Social de derecho
+
+\begin{quote}
+Artículo 44°.- Son deberes primordiales del Estado: defender la soberanía
+nacional; garantizar la plena vigencia de los derechos humanos; proteger a la
+población de las amenazas contra su seguridad; y promover el bienestar general
+que se fundamenta en la justicia y en el desarrollo integral y equilibrado de la
+Nación.
+\end{quote}
+
+\begin{quote}
+Asimismo, es deber del Estado establecer y ejecutar la política de fronteras y
+promover la integración, particularmente latinoamericana, así como el desarrollo y
+la cohesión de las zonas fronterizas, en concordancia con la política exterior.
+\#\# Leyes emitidas por el Congreso de la República.
+\end{quote}
+
+\begin{quote}
+--- Constitución Política del Perú
+\end{quote}
+
+Sobre Gobiernos Regionales y Municipales
+
+\begin{quote}
+Artículo 191°.- Los gobiernos regionales tienen autonomía política, económica y
+administrativa en los asuntos de su competencia. Coordinan con las
+municipalidades sin interferir sus funciones y atribuciones.
+La estructura orgánica básica de estos gobiernos la conforman el Consejo
+Regional como órgano normativo y fiscalizador, el Presidente como órgano
+ejecutivo, y el Consejo de Coordinación Regional integrado por los alcaldes
+provinciales y por representantes de la sociedad civil, como órgano consultivo y
+de coordinación con las municipalidades, con las funciones y atribuciones que les
+señala la ley.
+\end{quote}
+
+\begin{quote}
+Artículo 197°.- Las municipalidades promueven, apoyan y reglamentan la
+participación vecinal en el desarrollo local. Asimismo brindan servicios de
+seguridad ciudadana, con la cooperación de la Policía Nacional del Perú,
+conforme a ley.
+\end{quote}
+
+\begin{quote}
+Artículo 199°.- Los gobiernos regionales y locales son fiscalizados por sus
+propios órganos de fiscalización y por los organismos que tengan tal atribución
+por mandato constitucional o legal, y están sujetos al control y supervisión de la
+Contraloría General de la República, la que organiza un sistema de control
+descentralizado y permanente. Los mencionados gobiernos formulan sus
+presupuestos con la participación de la población y rinden cuenta de su ejecución,
+anualmente, bajo responsabilidad, conforme a ley.
+\end{quote}
+
+\begin{quote}
+--- Constitución Política del Perú
+\end{quote}
+
+\hypertarget{leyes-emitidas-por-el-congreso-de-la-repuxfablica}{%
+\section{Leyes emitidas por el Congreso de la República}\label{leyes-emitidas-por-el-congreso-de-la-repuxfablica}}
+
+\begin{quote}
+Artículo 2.- Derechos de participación ciudadana
+Son derechos de participación de los ciudadanos los siguientes:
+a) Iniciativa de Reforma Constitucional;
+b) Iniciativa en la formación de las leyes;
+c) referéndum;
+d) iniciativa en la formación de ordenanzas regionales y ordenanzas municipales; y,
+e) otros mecanismos de participación establecidos en la legislación vigente.
+\end{quote}
+
+\begin{quote}
+Artículo 3.- Derechos de control ciudadano
+Son derechos de control de los ciudadanos los siguientes:
+a) Revocatoria de Autoridades,
+b) Remoción de Autoridades;
+c) Demanda de Rendición de Cuentas; y,
+d) Otros mecanismos de control establecidos por la presente ley para el ámbito de los gobiernos municipales y regionales.
+\end{quote}
+
+\begin{quote}
+--- Ley de los derechos de participación y control ciudadanos, Ley N° 26300
+\end{quote}
+
+\hypertarget{ordenanzas-municipales-y-regionales}{%
+\section{Ordenanzas Municipales y Regionales}\label{ordenanzas-municipales-y-regionales}}
+
+\hypertarget{mecanismos-de-participaciuxf3n-ciudadana-y-control-social}{%
+\chapter{Mecanismos de Participación Ciudadana y Control Social}\label{mecanismos-de-participaciuxf3n-ciudadana-y-control-social}}
+
+\hypertarget{iniciativa-de-reforma-constitucional}{%
+\section{Iniciativa de Reforma Constitucional}\label{iniciativa-de-reforma-constitucional}}
+
+\hypertarget{iniciativa-de-formaciuxf3n-de-leyes}{%
+\section{Iniciativa de formación de leyes}\label{iniciativa-de-formaciuxf3n-de-leyes}}
+
+\hypertarget{referendum}{%
+\section{Referendum}\label{referendum}}
+
+\hypertarget{cuxf3mo-participar-en-el-proceso-de-creaciuxf3n-de-ordenanzas-municipalesregionales}{%
+\section{¿Cómo participar en el proceso de creación de ordenanzas municipales/regionales?}\label{cuxf3mo-participar-en-el-proceso-de-creaciuxf3n-de-ordenanzas-municipalesregionales}}
+
+\hypertarget{revocatoria-de-autoridades}{%
+\section{Revocatoria de Autoridades}\label{revocatoria-de-autoridades}}
+
+\hypertarget{remociuxf3n-de-autoridades}{%
+\section{Remoción de autoridades}\label{remociuxf3n-de-autoridades}}
+
+\hypertarget{demanda-de-rendiciuxf3n-de-cuentas}{%
+\section{Demanda de Rendición de Cuentas}\label{demanda-de-rendiciuxf3n-de-cuentas}}
+
+\hypertarget{acceder-a-informaciuxf3n-puxfablica-y-portales-de-transparencia}{%
+\section{Acceder a información pública y portales de transparencia}\label{acceder-a-informaciuxf3n-puxfablica-y-portales-de-transparencia}}
+
+El artículo 2, inciso 5 de la Constitución Política del Perú establece que toda persona tiene derecho a solicitar información sin expresión de causa; así también,
+el artículo 10 del TUO de la Ley de Transparencia y Acceso a la Información Pública establece la obligación de las entidades de la Administración pública de entregar información requerida que se encuentre bajo su control.
+
+Entonces, ¿cómo efectivizamos este derecho?
+
+El primer paso, es presentar tu solicitud de acceso a la información pública. Esta puede ser presentada en vía virtual o física.
+
+El segundo paso, es esperar que la entidad conteste este pedido. Las entidades tienen 10 días hábiles para atender las solicitudes. En algunos casos, de acuerdo a la norma en casos complejos, la entidad hasta el día 2 de recibida la solicitud, podrá solicitar una prórroga - no existiendo un plazo para contestar por parte de la entidad.
+
+En el tercer paso se pueden dar hasta tres situaciones: a) recibir la información de la entidad, b)que la entidad deniegue o no conteste la solicitud del ciudadano y c) que la entidad no conteste de manera adecuada la solicitud.
+
+Si estamos frente al supuesto a) no hay ningún problema.
+
+Si la entidad, no contestara la solicitud, supuesto b), el ciudadano puede apelar esta no respuesta o estime conveniente. La apelación se realiza ante la misma entidad o ante el Tribunal de Transparencia; también el ciudadano podría interponer un recurso de habeas data ante el poder judicial.
+
+En el supuesto c) si la entidad contestara la solicitud de una manera no adecuada, el ciudadano tiene hasta 15 días para apelar esa decisión de la administración ante el Tribunal de Tranparencia o ante la entidad; o si decidiera acudir al poder judicial a través de un habeas data hasta 60 días después de notificada la decisión de la entidad.
+
+Si nos centramos en el procedimiento administrativo ante el Tribunal de Transparencia, este tiene 10 días después de admitida la apelación por parte del Tribunal de Transparencia, este tendrá diez días para evaluar el caso, pedir a la entidad la información correspondiente y emitir una resolución para que la entidad entregue la información.
+
+Sin embargo, si la entidad no entrega la información, el Tribunal lo único que hace es remitir un reiterativo; dado que no tiene capacidad sancionatoria y se agota la vía administrativa, por lo que se puede acudir a la vía judicial.
+
+Si se decide interponer un recurso de habeas data, \ldots{}
+
+\hypertarget{datos-abiertos-de-las-entidades}{%
+\section{Datos abiertos de las entidades}\label{datos-abiertos-de-las-entidades}}
+
+\hypertarget{sentencias}{%
+\chapter{Sentencias}\label{sentencias}}
+
+\hypertarget{tribunales-nacionales}{%
+\section{Tribunales Nacionales}\label{tribunales-nacionales}}
+
+\hypertarget{tribunales-internacionales}{%
+\section{Tribunales Internacionales}\label{tribunales-internacionales}}
+
+\hypertarget{conclusiones-y-recomendaciones}{%
+\chapter{Conclusiones y recomendaciones}\label{conclusiones-y-recomendaciones}}
+
+\hypertarget{caso-de-estudio}{%
+\chapter*{Caso de estudio}\label{caso-de-estudio}}
+\addcontentsline{toc}{chapter}{Caso de estudio}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
